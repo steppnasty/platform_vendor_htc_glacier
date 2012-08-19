@@ -18,9 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/glacier/proprietary/libcamera.so:/obj/lib/libcamera.so \
-    vendor/htc/glacier/proprietary/libv8.so:system/lib/libv8.so \
-    vendor/htc/glacier/proprietary/libv8.so:obj/lib/libv8.so
-
 
 # All the blobs necessary for glacier
 PRODUCT_COPY_FILES += \
@@ -44,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/glacier/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/glacier/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
@@ -57,28 +53,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/firmware/fw_bcm4329.bin:/system/vendor/firmware/fw_bcm4329.bin \
     vendor/htc/glacier/firmware/fw_bcm4329_apsta.bin:/system/vendor/firmware/fw_bcm4329_apsta.bin \
     vendor/htc/glacier/firmware/fw_bcm4329_p2p.bin:/system/vendor/firmware/fw_bcm4329_p2p.bin
-
-
-# FIle for adreno
-PRODUCT_COPY_FILES += \
-    vendor/htc/glacier/proprietary/system/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
-    vendor/htc/glacier/proprietary/system/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/glacier/proprietary/system/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
-    vendor/htc/glacier/proprietary/system/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/htc/glacier/proprietary/system/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/glacier/proprietary/system/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
-    vendor/htc/glacier/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/glacier/proprietary/system/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/glacier/proprietary/system/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/glacier/proprietary/system/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/glacier/proprietary/system/lib/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/glacier/proprietary/system/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/htc/glacier/proprietary/system/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
 
