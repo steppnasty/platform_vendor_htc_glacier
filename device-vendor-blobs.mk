@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/glacier/proprietary/libcamera.so:/obj/lib/libcamera.so \
 
+
 # All the blobs necessary for glacier
 PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/akmd:/system/bin/akmd \
@@ -44,13 +45,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
-    vendor/htc/glacier/proprietary/gps.glacier.so:/system/lib/hw/gps.glacier.so \
     vendor/htc/glacier/proprietary/libbcc.so:/system/lib/libbcc.so 
-
-#Firmware
-PRODUCT_COPY_FILES += \
-    vendor/htc/glacier/firmware/bcm4329.hcd:/system/vendor/firmware/bcm4329.hcd \
-    vendor/htc/glacier/firmware/fw_bcm4329.bin:/system/vendor/firmware/fw_bcm4329.bin \
-    vendor/htc/glacier/firmware/fw_bcm4329_apsta.bin:/system/vendor/firmware/fw_bcm4329_apsta.bin \
-    vendor/htc/glacier/firmware/fw_bcm4329_p2p.bin:/system/vendor/firmware/fw_bcm4329_p2p.bin
 
