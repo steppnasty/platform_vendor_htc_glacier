@@ -47,3 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/glacier/proprietary/libbcc.so:/system/lib/libbcc.so 
 
+# Misc. Firmware needed for optimal Bluetooth config
+PRODUCT_COPY_FILES += \
+    vendor/htc/glacier/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
+
