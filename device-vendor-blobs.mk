@@ -16,8 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/glacier/proprietary/libcamera.so:/obj/lib/libcamera.so \
+    vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for glacier
 PRODUCT_COPY_FILES += \
@@ -39,10 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/glacier/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/glacier/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/glacier/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
-    vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/glacier/proprietary/gps.glacier.so:/system/lib/hw/gps.glacier.so \
     vendor/htc/glacier/proprietary/libbcc.so:/system/lib/libbcc.so 
