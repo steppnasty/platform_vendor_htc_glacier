@@ -38,8 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/glacier/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/glacier/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/glacier/proprietary/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/glacier/proprietary/gps.glacier.so:/system/lib/hw/gps.glacier.so
+    vendor/htc/glacier/proprietary/libposteffect.so:/system/lib/libposteffect.so
 
 #Firmware
 PRODUCT_COPY_FILES += \
